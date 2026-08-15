@@ -1,0 +1,44 @@
+﻿name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            client/package-lock.json
+
+      - name: Install backend dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Install frontend dependencies
+        run: npm --prefix client ci
+
+      - name: Run project checks
+        run: npm test
+
+      - name: Build frontend
+        run: npm run client:build
+
+      - name: Audit production dependencies
+        run: npm audit --omit=dev --audit-level=high
+
+      - name: Audit frontend dependencies
+        run: npm --prefix client audit --audit-level=high

@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+client/dist/
+client/.vite/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Tests and coverage
+coverage/
+.nyc_output/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+.cache/
+tmp/
+temp/
+
+# Local-only configuration
+config.json
