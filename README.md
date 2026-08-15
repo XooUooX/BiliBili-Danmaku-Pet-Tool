@@ -61,7 +61,7 @@
 ## 快速开始
 
 ~~~bash
-git clone <[your-repository-url](https://github.com/XooUooX/BiliBili-Danmaku-Pet-Tool.git)>
+git clone https://github.com/XooUooX/BiliBili-Danmaku-Pet-Tool.git
 cd BiliBili
 
 npm ci
