@@ -1,6 +1,6 @@
 ﻿# BiliBili 弹宠小助手
 
-一个基于 **Node.js、Express、MySQL、React 和 Vite** 的直播间运营管理平台，提供弹幕任务、B站账号绑定、每日任务、充值支付、卡密、抽奖、工单和后台管理等功能。
+一个基于 **Node.js、Express、MySQL、React 和 Vite** 的BiliBili直播间弹幕宠物小工具。
 
 > [!WARNING]
 > 本项目会调用哔哩哔哩相关接口，部分自动任务可能消耗硬币或 B币。请仅操作你本人拥有或已获得明确授权的账号，遵守平台规则并自行承担账号风控、接口变更和资金消耗风险。本项目与哔哩哔哩官方无关。
@@ -49,7 +49,7 @@
 ## 快速开始
 
 ~~~bash
-git clone <your-repository-url>
+git clone <[your-repository-url](https://github.com/XooUooX/BiliBili-Danmaku-Pet-Tool.git)>
 cd BiliBili
 
 npm ci
