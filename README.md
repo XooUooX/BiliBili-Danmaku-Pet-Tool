@@ -28,6 +28,18 @@
 - 站点信息、支付、SMTP、邮箱过滤、第三方登录和兰空图床配置
 - 后台设置仅回显数据库中已保存的内容；未保存字段保持为空，点击“保存设置”后才写入数据库
 
+## 演示
+<img width="1794" height="1552" alt="首页" src="https://github.com/user-attachments/assets/84dba4d0-95b7-4b0b-955c-f44f5dcb10a0" />
+<img width="1794" height="857" alt="仪表盘" src="https://github.com/user-attachments/assets/6e114de6-eb61-4bb5-ac93-e6c4e494f05c" />
+<img width="1794" height="857" alt="扫码登录" src="https://github.com/user-attachments/assets/3db80006-040a-4cb6-8cc5-70beacb2cbaa" />
+<img width="1794" height="857" alt="新建任务" src="https://github.com/user-attachments/assets/92f95ad7-fcc8-47cf-a8c7-2b85534b7e2a" />
+<img width="1794" height="1514" alt="日常任务" src="https://github.com/user-attachments/assets/5a87cc3e-a965-457e-94bd-f2b19b5af8f3" />
+<img width="1794" height="857" alt="在线工单" src="https://github.com/user-attachments/assets/852b538c-969f-44b1-8604-ac95b4ed64de" />
+<img width="1794" height="857" alt="账户充值" src="https://github.com/user-attachments/assets/fd606a0c-fb42-4d5d-8266-bcfa86017d4f" />
+<img width="1794" height="857" alt="个人资料" src="https://github.com/user-attachments/assets/2ea16c28-68d8-4729-b169-be823705a5de" />
+<img width="1794" height="857" alt="后台" src="https://github.com/user-attachments/assets/d5222fde-4693-4bcb-92b2-cc24c154a171" />
+
+
 ## 技术栈
 
 | 层级 | 技术 |
